@@ -1,0 +1,37 @@
+import turtle
+#king
+king=turtle.Turtle()
+
+window = turtle.Screen()
+king.color("red")
+king.begin_fill()
+#tilted steps begin
+king.forward(50)
+king.left(90)
+king.forward(50)
+king.right(90)
+king.forward(50)
+king.left(90)
+king.forward(50)
+king.right(90)
+king.forward(50)
+king.left(90)
+king.forward(50)
+king.right(90)
+king.forward(50)
+king.left(90)
+king.forward(50)
+king.right(90)
+king.forward(50)
+king.left(90)
+king.forward(50)
+king.left(90)
+#Tilted steps end
+
+king.forward(300)
+king.right(270)
+king.forward(250)
+king.left(90)
+king.forward(50)
+
+king.end_fill()
